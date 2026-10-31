@@ -163,6 +163,6 @@ Power BI · Power Query (M) · DAX · Data cleaning · Data modelling (star sche
 
 ## About me
 
-Divya Taware · [[LinkedIn link](https://www.linkedin.com/in/divya-taware-737300308/) · [tawaredivya023@gmail.com]
+Divya Taware · [LinkedIn link](https://www.linkedin.com/in/divya-taware-737300308/) · tawaredivya023@gmail.com
 
 I'm happy to hear feedback, especially on the data model and the limitations section.
