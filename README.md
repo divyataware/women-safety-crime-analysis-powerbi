@@ -28,12 +28,10 @@ I started from business questions, not charts. The full list is in [`docs/busine
 
 ## The data
 
-- **Source:** [add the real source name and link here]
+- **Source:** [NCRB](https://www.ncrb.mha.gov.in/search/index?search=)
 - **Period:** 2014 to 2020
 - **Files used:** missing women, traced/rescued cases, acid attacks, rape cases (by age group), and other crimes (murder, kidnapping & abduction, gang robbery and more)
 - **Size:** about 1.7 million recorded cases in total
-- **Licence:** [add the licence or terms of use, or note that raw files are not included]
-
 ---
 
 ## What I did
@@ -42,7 +40,7 @@ I started from business questions, not charts. The full list is in [`docs/busine
 2. **Combined the crime tables into one main fact table**, `Fact_Crime`, with State/UT, Years, Case Type and Cases Reported.
 3. **Kept two tables separate on purpose.** Rape-by-age data sits in `Fact_Rape_Cases`, and traced cases sit in `Rescued case`. They are a different level of detail, and merging them caused double counting in my first attempt.
 4. **Built a multi-fact star schema.** `Dim_State` and `Dim_year` are shared by all three fact tables. Every relationship is one-to-many with a single filter direction, and no fact table connects to another.
-5. **Wrote the DAX measures** (in [`docs/measures.dax`](docs/measures.dax)).
+5. **Wrote the DAX measures**.
 6. **Designed a 3-page interactive report** with slicers, page navigation, a state matrix, a map, an age chart, and an insights page.
 
 ### Data model
