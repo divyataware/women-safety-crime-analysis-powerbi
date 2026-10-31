@@ -22,7 +22,7 @@ An end-to-end Power BI project on recorded crimes against women in India, 2014 t
 
 I wanted to practise the full analyst workflow on data that is hard to work with: five separate files, text in number columns, total rows mixed with real rows, and different spellings of the same state. I also wanted a topic where getting the numbers wrong has real consequences, because that forces you to check everything twice.
 
-I started from business questions, not charts. The full list is in [`docs/business_questions_and_findings.md`](docs/business_questions_and_findings.md).
+I started from business questions, not charts. The full list is in [`docs/business_questions_and_findings.md`](Business_Questions.docx).
 
 ---
 
@@ -104,7 +104,7 @@ I wrote 15 questions across six areas and tested which ones the data could actua
 | Case outcomes | None | Investigated, chargesheeted, pending (not in the data) |
 | Data quality | Fully documented | None |
 
-The full answers, evidence and reliability ratings are in [`docs/business_questions_and_findings.md`](docs/business_questions_and_findings.md).
+The full answers, evidence and reliability ratings are in [`docs/business_questions_and_findings.md`](Business_Questions.docx).
 
 ---
 
@@ -153,26 +153,7 @@ I would rather list these than hide them.
 ## How to open the project
 
 1. Install Power BI Desktop (free).
-2. Open `powerbi/crime.pbix`.
-3. If Power BI asks for the data location, point it to the files in `data/raw/`.
-
----
-
-## Repository structure
-
-```
-├── README.md
-├── data/
-│   ├── raw/                 original files as downloaded
-│   └── cleaned/             optional cleaned export
-├── powerbi/
-│   └── crime.pbix
-├── screenshots/
-└── docs/
-    ├── business_questions_and_findings.md
-    ├── measures.dax
-    └── data_cleaning_log.md
-```
+2. Open `crime.pbix`.
 
 ---
 
@@ -184,6 +165,6 @@ Power BI · Power Query (M) · DAX · Data cleaning · Data modelling (star sche
 
 ## About me
 
-[Your name] · [LinkedIn link] · [Email]
+Divya Taware · [[LinkedIn link](https://www.linkedin.com/in/divya-taware-737300308/) · [tawaredivya023@gmail.com]
 
 I'm happy to hear feedback, especially on the data model and the limitations section.
