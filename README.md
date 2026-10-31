@@ -10,11 +10,11 @@ An end-to-end Power BI project on recorded crimes against women in India, 2014 t
 
 | Overview | State analysis | Insights |
 |---|---|---|
-| ![Overview](screenshots/01_overview.png) | ![State analysis](screenshots/02_state_analysis.png) | ![Insights](screenshots/03_insights.png) |
+| ![Overview](Overview.png) | ![State analysis](State_Analysis.png) | ![Insights](Insights.png) |
 
 **Data model**
 
-![Data model](screenshots/04_data_model.png)
+![Data model](Data_Model.png)
 
 ---
 
